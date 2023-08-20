@@ -34,6 +34,7 @@ Una **enfermedad pulmonar obstructiva crónica** (EPOC) es una enfermedad pulmon
 * **PSA**: Es la concentración de PSA en sangre. Es una variable del tipo continua.
 * **BIOPSIAS PREVIAS**: Indica si el paciente ha tenido biopsias previas. Es una variable SI/NO.
 * **ANTIBIOTICO UTILIAZADO EN LA PROFILAXIS**: Indica el tipo de antibiótico utilizado en la biopsia. Es una variable categórica.
+    
     Se presentan:
     * *FLUOROQUINOLONA_AMINOGLICOSIDO*
     * *CEFALOSPORINA_AMINOGLUCOCIDO*
@@ -41,6 +42,7 @@ Una **enfermedad pulmonar obstructiva crónica** (EPOC) es una enfermedad pulmon
     * *OTROS*
 * **NUMERO DE MUESTRAS TOMADAS**: Indica el número de muestras tomadas en la biopsia. En un número cuantitativo entero.
 * **BIOPSIA**: Es el resultado de la biopsia. Es una variable categórica.
+    
     Se presentan como:
     * *NEG*: resultado negativo para cancer prostático.
     * *ADENOCARCINOMA GLEASON 6*: es un cáncer de grado bajo.
@@ -67,17 +69,20 @@ Los resultados positivos falsos en la prueba del PSA son comunes. Solo alrededor
 * **FIEBRE**: indica si el paciente presenta fiebre. Es una variable SI/NO.
 * **ITU**: indica si el paciente presenta infección de tracto urinario. Es una variable SI/NO.
 * **TIPO DE CULTIVO**: indica el tipo de cultivo solicitado. Es una variable categorica. 
-    Entre los **Tipos de Cultivos** aparecen:
+    
+    Entre los Tipos de Cultivos aparecen:
     * *Hemocultivo*: es un examen de laboratorio que permite verificar si hay bacterias u otros organismos en la muestra de sangre del paciente.
     * *Urocultivo*: examen que permite determinar la presencia de una infección urinaria.
     * *Hemocultivo y urocultivo*: cuando se piden ambos estudios.
     * *No*: cuando no se pide ninguno.
 * **AGENTE AISLADO**: indica el tipo de agente aislado en el cultivo. Es una variable categórica.
+    
     Se indican:
     * *E. Coli*: es una de las bacterias más comúnmente implicadas en el desarrollo de infecciones prostática.
     * *Pseudomonas aeruginosa*: son patógenos oportunistas que con frecuencia causan infecciones intrahospitalarias.
     * *No*: que no se ha aislado agente. 
 * **PATRON DE RESISTENCIA**: indica si presenta algún patrón de resistencia a los antibióticos. Es una variable categórica.
+    
     Se presentan como:
     * *AMPI*: significa resistencia a la ampicilina.
     * *CIPRO*: significa resistencia a ciprofloxacino.
